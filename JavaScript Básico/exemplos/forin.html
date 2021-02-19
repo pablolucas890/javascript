@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script>
+      setTimeout(function(){
+        var listaConvidados = Array()
+
+        listaConvidados['a'] = 'Jorge'
+        listaConvidados[10] = 'Jamilton'
+        listaConvidados['zebra'] = 'José'
+        listaConvidados[-1] = 'Ana'
+        listaConvidados[true] = 'Maria'
+
+        for(var x in listaConvidados){
+          alert('Índice (' + x + ') valor ' + listaConvidados[x])
+        }
+      },5000);
+    </script>
+  </head>
+  <body>
+    var listaConvidados = Array()
+    <br>
+    <br>
+    listaConvidados['a'] = 'Jorge'
+    <br>
+    listaConvidados[10] = 'Jamilton'
+    <br>
+    listaConvidados['zebra'] = 'José'
+    <br>
+    listaConvidados[-1] = 'Ana'
+    <br>
+    listaConvidados[true] = 'Maria'
+    <br>
+    <br>
+    <br>
+    Forin Seleciona Todos os Valores independentemente do índice
+  </body>
+</html>

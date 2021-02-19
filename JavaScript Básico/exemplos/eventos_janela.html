@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+   
+
+    
+  </head>
+
+  <!-- <body onresize="console.log('evento disparado')">
+  </body> -->
+<body onscroll="funcao(document.getElementById('te').innerHTML)">     <hr>
+  <p>Aplicacao do método <b>onscroll</b> que ativa uma ação quando o scroll do mouse é ativo</p>
+  <hr>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <div id="imp">
+    Numero de Eventos
+    <p id="te">0</p>
+  </div>
+  <div style="height: 3000px; width: 125px; background-color: #ccc;"></div>
+</body>
+
+<script>
+    function funcao(i){
+    i = parseInt(i);
+    i++
+    document.getElementById('te').innerHTML = i;
+    }
+
+</script>
+</html>
