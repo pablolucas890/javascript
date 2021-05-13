@@ -1,3 +1,6 @@
+<img src="gif1.gif">
+<img src="gif2.gif">
+<hr>
 <h1 align="center"> javascript</h1>
 <h3 align="center">Repositório destinado ao estudo da linguagem de programação interpretada <i> javascript </i></h3>
 
