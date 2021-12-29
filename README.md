@@ -7,6 +7,6 @@
 <h4>Este repositório contém:</h4>
 
 
-- exemplos básicos da linguagem, bem como estrruras de repetições, seleção de elementos de uma página
-- exemplos de javascript com ajax para tratamento de requisições
-- exemplos da linguagem em seu paradigma orientado à objetos
+- exemplos básicos da linguagem, bem como estrruras de repetições, seleção de elementos de uma página.
+- exemplos de javascript com ajax para tratamento de requisições.
+- exemplos da linguagem em seu paradigma orientado à objetos.
